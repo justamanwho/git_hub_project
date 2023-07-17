@@ -1,6 +1,7 @@
 # Hello GitHub!
 # In this code I'll just print some programs to see how it's gonna look like in GitHub
 
+import math as m
 import random as r
 import os
 
@@ -25,10 +26,10 @@ def find_factorial(num):
 
 
 print(find_factorial(5))
-
+print(m.factorial(5))
 
 # Creating russian roulette
-# Trying to delete System32 from python obviously gives PermissionError
+# Trying to delete System32 from python obviously triggers PermissionError
 # If error appears, message outputs
 
 try:
@@ -38,3 +39,5 @@ try:
         print('You are lucky!')
 except PermissionError:
     print('OS successfully removed. Do you want to restart your computer now or later?')
+
+print('Did you know that gods of death love apples?')
